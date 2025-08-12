@@ -10,5 +10,5 @@ export default defineConfig({
     host: true,
     port: 5180
   },
-  base: '/pasteleria/',
+  base: process.env.NODE_ENV === 'production' ? '/pasteleria/' : '/',
 })
