@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Package, Users, ClipboardList, AlertTriangle, Plus, Minus, Eye, Save, TrendingDown, TrendingUp } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Package, Users, ClipboardList, AlertTriangle, Plus, Minus, Save } from 'lucide-react';
 import { round } from './utils/round';
 
 const BakeryControlSystem = () => {
