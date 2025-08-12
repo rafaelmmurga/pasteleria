@@ -10,4 +10,5 @@ export default defineConfig({
     host: true,
     port: 5180
   },
+  base: '/pasteleria/',
 })
