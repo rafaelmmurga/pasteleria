@@ -4,7 +4,7 @@ name: Deploy Vite to GitHub Pages
 on:
   push:
     branches:
-      - main  # Cambia si tu rama principal tiene otro nombre
+      - master  # Cambia si tu rama principal tiene otro nombre
   workflow_dispatch: # Permite ejecutarlo manualmente desde Actions
 
 permissions:
